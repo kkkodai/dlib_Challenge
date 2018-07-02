@@ -24,7 +24,7 @@
 7. dlib
 - 1と6は[OpenCV_challenge](https://github.com/kkkodai/OpenCV_challenge#install)レポジトリをチェック
 
-## homebrew
+### - homebrew
 まず、Xcode入れる
 ```
 $ xcode-select --install
@@ -32,14 +32,14 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 ```
 参照:[MacにHomebrewを導入する方法](https://qiita.com/balius_1064/items/ac7dff5ef10eaf69996f) 
 
-## boost & boost-python & cmake 
+### - boost & boost-python & cmake 
 ```
 $ brew install boost
 $ brew install boost-python --with-python3
 $ brew install cmake
 ```
 
-## dlib
+### - dlib
 ```sh
 $ pip install dlib
 ```
@@ -55,6 +55,6 @@ $ pip install dlib
     - 点描みたいに出力
 
 # Task
-## Step1. 口認識
-## Step2. マーカー認識
-## Step3. 口のどの位置にマーカーがあるか特定
+### Step1. 口認識
+### Step2. マーカー認識
+### Step3. 口のどの位置にマーカーがあるか特定
