@@ -12,7 +12,7 @@
 
 # Install
 ## Python APIとしてインストール
-## 参考サイト
+#### 参考サイト
 - [Dlibの高性能な顔器官検出をMacでさくっと試す](https://qiita.com/naoyu822/items/7cce2f2dbad24931cc87)
 ## procedure
 1. Xcode
