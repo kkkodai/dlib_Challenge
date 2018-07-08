@@ -13,6 +13,7 @@ while True:
     dets = detector(frame[:, :, ::-1])
     if len(dets) > 0:
         parts = predictor(frame, dets[0]).parts()
+        parts = parts[48:68] #口認識は48~67
     # 確認用 ---
         img = frame * 0
         for i in parts:
