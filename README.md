@@ -50,11 +50,13 @@ $ pip install dlib
 - face_detect.py
     - 顔認識
     - opencv2のように認識範囲が四角い
-- face_detect_position.py
+- face_detect_dot.py
     - 顔認識(一人分しか認識しない)
     - 点描みたいに出力
 
 # Task
 ### Step1. 口認識
+- mouth_detect_dot.py
+    - 口認識は全68のラベルのうち49~68(プログラム内では48~67)で行う
 ### Step2. マーカー認識
 ### Step3. 口のどの位置にマーカーがあるか特定
