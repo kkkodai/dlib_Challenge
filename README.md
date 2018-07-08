@@ -59,4 +59,5 @@ $ pip install dlib
 - mouth_detect_dot.py
     - 口認識は全68のラベルのうち49から68(プログラム内では48から67)で行う
 ### Step2. マーカー認識
+[HOG特徴とSVMによる物体検出](http://ishi.main.jp/ros/ros_obj_detection.html)が参考になるか
 ### Step3. 口のどの位置にマーカーがあるか特定
