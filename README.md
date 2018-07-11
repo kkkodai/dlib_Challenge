@@ -60,7 +60,7 @@ sudo make install
 ```
 → 幸いサクッとインストールできました
 ### - XQuartzをインストール & CMakeCache.txtの編集
-imglabのビルドの際にエラーが出た場合はインストール、編集の必要ある
+imglabのビルドの際にエラーが出た場合はインストール、編集の必要ある
 - XQuartz
 ```sh
 https://www.xquartz.org/
