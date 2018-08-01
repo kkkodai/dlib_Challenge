@@ -131,6 +131,9 @@ $ ./train_object_detector.py images
     - 口認識は全68のラベルのうち49から68(プログラム内では48から67)で行う
 - mouth_detect_dot_RGB.py
     - RGB化
+- mouth_detect_dot_RGB.py
+    - 口の外側のみ認識
+
 
 default出力はこんな感じになるのです
 
