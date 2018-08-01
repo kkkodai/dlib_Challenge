@@ -117,8 +117,17 @@ imglab imagedata.xml
 ```
 
 2. XQuartzのウィンドウが立ちあがって、ファイル一覧とともに画像が表示されるアプリが起動するので、shiftを押しながらマウスドラッグで領域を指定していって、最後にsave
+
+3. 学習
+```sh
+$ ./train_object_detector.py images
+```
+
+- 参考サイト:[dlibでマンガの顔認識をやってみた](http://tadaoyamaoka.hatenablog.com/entry/2016/09/21/184955)
+
 # Task
 ### Step1. 口認識
+![出力形式](./dlibPointNum.png)
 - mouth_detect_dot.py
     - 口認識は全68のラベルのうち49から68(プログラム内では48から67)で行う
 - mouth_detect_dot_RGB.py
