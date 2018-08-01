@@ -1,12 +1,18 @@
 import dlib
 import cv2
 
+
+# 追記か
+"""
+# dlibで学習したモデルを読み込む
+    detector = dlib.simple_object_detector("droid_detector.svm")
+"""
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
 cap = cv2.VideoCapture(0)
 # fps調整
-cap.set(5, 30) 
+cap.set(5, 60) 
 while True:
     ret, frame = cap.read()
     #cv2.imshow("me", frame) # 確認用
