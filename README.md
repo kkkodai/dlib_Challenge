@@ -132,7 +132,7 @@ $ ./train_object_detector.py images
 - mouth_detect_dot_RGB.py
     - RGB化
 
-defaultでは出力はこんな感じになるのです
+default出力はこんな感じになるのです
 
 <img src="./dlibPointNum.png" alt="output" title="output" width="400" height="400">
 
