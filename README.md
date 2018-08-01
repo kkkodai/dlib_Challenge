@@ -127,11 +127,16 @@ $ ./train_object_detector.py images
 
 # Task
 ### Step1. 口認識
-![出力形式](./dlibPointNum.png)
 - mouth_detect_dot.py
     - 口認識は全68のラベルのうち49から68(プログラム内では48から67)で行う
 - mouth_detect_dot_RGB.py
     - RGB化
+
+defaultでは出力はこんな感じになるのです
+
+<img src="./dlibPointNum.png" alt="output" title="output" width="400" height="400">
+
+
 ### Step2. マーカー認識
 - 参考サイト
     - [HOG特徴とSVMによる物体検出](http://ishi.main.jp/ros/ros_obj_detection.html)
